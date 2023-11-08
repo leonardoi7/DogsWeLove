@@ -15,6 +15,7 @@
 		A71ED76A2AFC1CB300680632 /* DogWeLoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED7692AFC1CB300680632 /* DogWeLoveUITests.swift */; };
 		A71ED76C2AFC1CB300680632 /* DogWeLoveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED76B2AFC1CB300680632 /* DogWeLoveUITestsLaunchTests.swift */; };
 		A71ED77A2AFC24F900680632 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED7792AFC24F900680632 /* DogCell.swift */; };
+		A71ED77D2AFC3EC300680632 /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED77C2AFC3EC300680632 /* DogData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		A71ED7692AFC1CB300680632 /* DogWeLoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWeLoveUITests.swift; sourceTree = "<group>"; };
 		A71ED76B2AFC1CB300680632 /* DogWeLoveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWeLoveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A71ED7792AFC24F900680632 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		A71ED77C2AFC3EC300680632 /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		A71ED74D2AFC1CB200680632 /* DogWeLove */ = {
 			isa = PBXGroup;
 			children = (
+				A71ED77B2AFC3EB800680632 /* Model */,
 				A71ED7782AFC24BE00680632 /* Views */,
 				A71ED74E2AFC1CB200680632 /* DogWeLoveApp.swift */,
 				A71ED7502AFC1CB200680632 /* ContentView.swift */,
@@ -136,6 +139,14 @@
 				A71ED7792AFC24F900680632 /* DogCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A71ED77B2AFC3EB800680632 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A71ED77C2AFC3EC300680632 /* DogData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 			files = (
 				A71ED7512AFC1CB200680632 /* ContentView.swift in Sources */,
 				A71ED74F2AFC1CB200680632 /* DogWeLoveApp.swift in Sources */,
+				A71ED77D2AFC3EC300680632 /* DogData.swift in Sources */,
 				A71ED77A2AFC24F900680632 /* DogCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
