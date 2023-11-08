@@ -1,23 +1,24 @@
 import SwiftUI
 
 struct DogCell: View {
+    let dogData: DogData
     var body: some View {
         ZStack (alignment: .bottom) {
             HStack {
                 Spacer()
                     .frame(width: 130)
                 VStack (alignment: .leading) {
-                    Text("Chief")
+                    Text(dogData.dogName)
                         .font(.title2)
                         .foregroundColor(.primary)
                         .padding(.bottom, 10)
                         .padding(.leading, 16)
-                    Text("Black (formerly) White with black spots, he don't trust anyone")
+                    Text(dogData.description)
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                         .padding(.bottom, 10)
                         .padding(.leading, 16)
-                    Text("Almost 2 years")
+                    Text("\(dogData.age)")
                         .font(.subheadline)
                         .padding(.bottom)
                         .padding(.leading, 16)
@@ -46,5 +47,6 @@ struct DogCell: View {
 
 
 #Preview {
-    DogCell()
+    let dogData = DogData(dogName: "Chief", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex")
+    return DogCell(dogData: dogData)
 }
