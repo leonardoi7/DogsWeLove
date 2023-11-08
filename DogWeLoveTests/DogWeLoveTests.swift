@@ -1,10 +1,3 @@
-//
-//  DogWeLoveTests.swift
-//  DogWeLoveTests
-//
-//  Created by leonardo on 08/11/23.
-//
-
 import XCTest
 @testable import DogWeLove
 

@@ -1,10 +1,3 @@
-//
-//  DogWeLoveUITestsLaunchTests.swift
-//  DogWeLoveUITests
-//
-//  Created by leonardo on 08/11/23.
-//
-
 import XCTest
 
 final class DogWeLoveUITestsLaunchTests: XCTestCase {
