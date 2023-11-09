@@ -11,10 +11,12 @@ struct DogList: View {
                 ScrollView {
                     LazyVStack {
                         ForEach(dogData) { dog in
-                            DogCell(dogData: dog)
-                                .background(Color(.secondarySystemBackground))
-                                .padding(.horizontal)
-                                .padding(.vertical, 4)
+                            NavigationLink(destination: DogDetail(dogData: dog)) {
+                                DogCell(dogData: dog)
+                                    .background(Color(.secondarySystemBackground))
+                                    .padding(.horizontal)
+                                    .padding(.vertical, 4)
+                            }
                         }
                     }
                 }
