@@ -1,16 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let dogData: [DogData] = [
-        DogData(dogName: "Chief", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-        DogData(dogName: "Rex", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-        DogData(dogName: "Rex", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-        DogData(dogName: "Rex", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-        DogData(dogName: "Rex", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-        DogData(dogName: "Rex", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-        DogData(dogName: "Rex", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-        DogData(dogName: "Rex", description: "Black (formerly) White with black spots, he don't trust anyone", age: 2, image: "Rex"),
-    ]
+    @State private var dogData: [DogData] = []
     
     var body: some View {
         NavigationView {
@@ -32,6 +23,15 @@ struct ContentView: View {
             }
         }
         .navigationTitle("Dogs We Love")
+        .onAppear {
+            APIManager.shared.fetchDogs { dogs, error in
+                if let dogs = dogs {
+                    dogData = dogs
+                } else if let error = error {
+                    print(error.localizedDescription)
+                }
+            }
+        }
     }
 }
 
