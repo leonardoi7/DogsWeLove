@@ -18,6 +18,7 @@
 		A71ED77D2AFC3EC300680632 /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED77C2AFC3EC300680632 /* DogData.swift */; };
 		A71ED77F2AFCDB3700680632 /* DogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED77E2AFCDB3700680632 /* DogList.swift */; };
 		A71ED7812AFCF50D00680632 /* DogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED7802AFCF50D00680632 /* DogDetail.swift */; };
+		A71ED7842AFCF9CB00680632 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ED7832AFCF9CB00680632 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		A71ED77C2AFC3EC300680632 /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
 		A71ED77E2AFCDB3700680632 /* DogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogList.swift; sourceTree = "<group>"; };
 		A71ED7802AFCF50D00680632 /* DogDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetail.swift; sourceTree = "<group>"; };
+		A71ED7832AFCF9CB00680632 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		A71ED74D2AFC1CB200680632 /* DogWeLove */ = {
 			isa = PBXGroup;
 			children = (
+				A71ED7822AFCF95400680632 /* Network */,
 				A71ED77B2AFC3EB800680632 /* Model */,
 				A71ED7782AFC24BE00680632 /* Views */,
 				A71ED74E2AFC1CB200680632 /* DogWeLoveApp.swift */,
@@ -153,6 +156,14 @@
 				A71ED77C2AFC3EC300680632 /* DogData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A71ED7822AFCF95400680632 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A71ED7832AFCF9CB00680632 /* APIManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				A71ED74F2AFC1CB200680632 /* DogWeLoveApp.swift in Sources */,
 				A71ED77D2AFC3EC300680632 /* DogData.swift in Sources */,
 				A71ED77A2AFC24F900680632 /* DogCell.swift in Sources */,
+				A71ED7842AFCF9CB00680632 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
