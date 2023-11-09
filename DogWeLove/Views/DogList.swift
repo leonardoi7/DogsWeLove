@@ -4,7 +4,6 @@ struct DogList: View {
     let dogData: [DogData]
     
     var body: some View {
-        NavigationView {
             ZStack {
                 Color(.secondarySystemBackground)
                     .edgesIgnoringSafeArea(.all)
@@ -20,7 +19,6 @@ struct DogList: View {
                     }
                 }
             }
-        }
         .navigationTitle("Dogs We Love")
     }
 }
