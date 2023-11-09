@@ -25,17 +25,31 @@ struct DogCell: View {
                         .padding(.bottom)
                         .padding(.leading, 16)
                 }
+                .frame(minHeight: 150)
                 .padding()
             }
             .background(Color(.systemBackground))
             .clipShape(RoundedRectangle(cornerRadius: 14))
             
             HStack {
-                Image("Rex")
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(RoundedRectangle(cornerRadius: 14))
-                    .frame(width: 150)
+                AsyncImage(url: URL(string:dogData.correctImageURL)) { phase in
+                    if let image = phase.image {
+                        image
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 14))
+                            .frame(width: 150)
+                    } else if phase.error != nil {
+                        Image("No-Image-Placeholder")
+                            .resizable()
+                            .scaledToFit()
+                            .clipShape(RoundedRectangle(cornerRadius: 14))
+                            .frame(width: 150)
+                    } else {
+                        ProgressView()
+                            .frame(width: 150, height: 150)
+                    }
+                }
                 Spacer()
             }
         }
