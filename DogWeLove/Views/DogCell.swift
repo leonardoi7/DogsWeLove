@@ -27,7 +27,6 @@ struct DogCell: View {
             }
             .background(Color(.systemBackground))
             .clipShape(RoundedRectangle(cornerRadius: 14))
-            .padding(.horizontal)
             
             HStack {
                 Image("Rex")
@@ -37,10 +36,8 @@ struct DogCell: View {
                     .frame(width: 150)
                 Spacer()
             }
-            .padding(.leading)
         }
         .padding(.vertical)
-        .background(Color(.secondarySystemBackground))
         .navigationTitle("Dog We Love")
     }
 }
