@@ -7,6 +7,14 @@ struct DogData: Codable, Identifiable {
     var age: Int
     var image: String
     
+    var correctImageURL: String {
+        if let range = image.range(of: ".jpg") {
+            let endIndex = range.upperBound
+            return String(image[..<endIndex])
+        }
+        return image
+    }
+    
     enum CodingKeys: String, CodingKey {
         case dogName
         case description
