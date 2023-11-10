@@ -6,12 +6,22 @@ class DataManager: ObservableObject {
     let container: NSPersistentContainer
     var context: NSManagedObjectContext { container.viewContext }
     
-    init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "DogsWeLove")
+    init() {
+        container = NSPersistentContainer(name: "Dogs")
         container.loadPersistentStores { (_, error) in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
             }
+        }
+    }
+    
+    func fetchDogs() -> [Dog] {
+        let request: NSFetchRequest<Dog> = Dog.fetchRequest()
+        do {
+            return try context.fetch(request)
+        } catch {
+            print("Error fetching dogs: \(error)")
+            return []
         }
     }
     
