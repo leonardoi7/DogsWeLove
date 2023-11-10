@@ -74,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				A78C66CB2AFE6D9F005E8DBB /* DogsWeLoveTests */,
-				A71ED74D2AFC1CB200680632 /* DogWeLove */,
+				A71ED74D2AFC1CB200680632 /* DogsWeLove */,
 				A71ED74C2AFC1CB200680632 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A71ED74D2AFC1CB200680632 /* DogWeLove */ = {
+		A71ED74D2AFC1CB200680632 /* DogsWeLove */ = {
 			isa = PBXGroup;
 			children = (
 				A78C66CC2AFE6F24005E8DBB /* Utilities */,
@@ -100,7 +100,7 @@
 				A71ED7522AFC1CB300680632 /* Assets.xcassets */,
 				A71ED7542AFC1CB300680632 /* Preview Content */,
 			);
-			path = DogWeLove;
+			path = DogsWeLove;
 			sourceTree = "<group>";
 		};
 		A71ED7542AFC1CB300680632 /* Preview Content */ = {
@@ -424,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DogWeLove/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DogsWeLove/Preview Content\"";
 				DEVELOPMENT_TEAM = N2TY84H7TW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -455,7 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DogWeLove/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DogsWeLove/Preview Content\"";
 				DEVELOPMENT_TEAM = N2TY84H7TW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
