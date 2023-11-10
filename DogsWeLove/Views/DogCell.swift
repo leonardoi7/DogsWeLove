@@ -55,7 +55,7 @@ struct DogCell: View {
             }
         }
         .padding(.vertical)
-        .navigationTitle("Dog We Love")
+        .navigationTitle("Dogs We Love")
     }
 }
 

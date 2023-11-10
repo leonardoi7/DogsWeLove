@@ -1,0 +1,80 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld years old" : {
+      "localizations" : {
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld año"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld años"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Almost %lld years old" : {
+      "localizations" : {
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tiene un año"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tiene casi %lld años"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Dogs" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perros"
+          }
+        }
+      }
+    },
+    "Dogs We Love" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perros Que Amamos"
+          }
+        }
+      }
+    },
+    "View All Dogs" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar todos los perros"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
