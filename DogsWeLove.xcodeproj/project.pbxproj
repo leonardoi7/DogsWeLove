@@ -19,6 +19,7 @@
 		A71ED7872AFD06B500680632 /* Dogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A71ED7852AFD06B500680632 /* Dogs.xcdatamodeld */; };
 		A78984DC2AFE6C6F00A29271 /* DogsWeLoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78984DB2AFE6C6F00A29271 /* DogsWeLoveTests.swift */; };
 		A78C66CE2AFE6F4E005E8DBB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C66CD2AFE6F4E005E8DBB /* Color+Extension.swift */; };
+		A78C66D02AFE711D005E8DBB /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A78C66CF2AFE711D005E8DBB /* Localizable.xcstrings */; };
 		A796B9CE2AFE446D00FDD15F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A796B9CD2AFE446D00FDD15F /* DataManager.swift */; };
 		A796B9D02AFE490B00FDD15F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A796B9CF2AFE490B00FDD15F /* Helpers.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		A71ED7862AFD06B500680632 /* Dogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dogs.xcdatamodel; sourceTree = "<group>"; };
 		A78984DB2AFE6C6F00A29271 /* DogsWeLoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsWeLoveTests.swift; sourceTree = "<group>"; };
 		A78C66CD2AFE6F4E005E8DBB /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		A78C66CF2AFE711D005E8DBB /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		A796B9CD2AFE446D00FDD15F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A796B9CF2AFE490B00FDD15F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 		A71ED7422AFC1CB200680632 = {
 			isa = PBXGroup;
 			children = (
+				A78C66CF2AFE711D005E8DBB /* Localizable.xcstrings */,
 				A71ED74D2AFC1CB200680632 /* DogsWeLove */,
 				A78C66CB2AFE6D9F005E8DBB /* DogsWeLoveTests */,
 				A71ED74C2AFC1CB200680632 /* Products */,
@@ -229,6 +232,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = A71ED7422AFC1CB200680632;
 			productRefGroup = A71ED74C2AFC1CB200680632 /* Products */;
@@ -248,6 +252,7 @@
 			files = (
 				A71ED7562AFC1CB300680632 /* Preview Assets.xcassets in Resources */,
 				A71ED7532AFC1CB300680632 /* Assets.xcassets in Resources */,
+				A78C66D02AFE711D005E8DBB /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
