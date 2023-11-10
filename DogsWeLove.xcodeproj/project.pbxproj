@@ -91,14 +91,14 @@
 		A71ED74D2AFC1CB200680632 /* DogsWeLove */ = {
 			isa = PBXGroup;
 			children = (
-				A78C66CC2AFE6F24005E8DBB /* Utilities */,
-				A71ED7822AFCF95400680632 /* Network */,
-				A71ED77B2AFC3EB800680632 /* Model */,
-				A71ED7782AFC24BE00680632 /* Views */,
-				A71ED74E2AFC1CB200680632 /* DogWeLoveApp.swift */,
 				A71ED7502AFC1CB200680632 /* ContentView.swift */,
+				A71ED74E2AFC1CB200680632 /* DogWeLoveApp.swift */,
 				A71ED7522AFC1CB300680632 /* Assets.xcassets */,
+				A71ED77B2AFC3EB800680632 /* Model */,
+				A71ED7822AFCF95400680632 /* Network */,
 				A71ED7542AFC1CB300680632 /* Preview Content */,
+				A78C66CC2AFE6F24005E8DBB /* Utilities */,
+				A71ED7782AFC24BE00680632 /* Views */,
 			);
 			path = DogsWeLove;
 			sourceTree = "<group>";
