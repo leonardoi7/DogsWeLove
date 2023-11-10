@@ -19,7 +19,7 @@ struct DogCell: View {
                         .foregroundColor(.secondary)
                         .padding(.bottom, 10)
                         .padding(.leading, 16)
-                    Text("\(dogData.age)")
+                    Text("Almost \(dogData.age + 1) years old")
                         .foregroundColor(.secondary)
                         .font(.subheadline)
                         .padding(.bottom)
