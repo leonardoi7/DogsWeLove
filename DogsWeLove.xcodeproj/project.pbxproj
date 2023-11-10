@@ -30,13 +30,6 @@
 			remoteGlobalIDString = A71ED74A2AFC1CB200680632;
 			remoteInfo = DogWeLove;
 		};
-		A71ED7662AFC1CB300680632 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A71ED7432AFC1CB200680632 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A71ED74A2AFC1CB200680632;
-			remoteInfo = DogWeLove;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +40,6 @@
 		A71ED7552AFC1CB300680632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A71ED75B2AFC1CB300680632 /* DogsWeLoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsWeLoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71ED75F2AFC1CB300680632 /* DogWeLoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogWeLoveTests.swift; sourceTree = "<group>"; };
-		A71ED7652AFC1CB300680632 /* DogsWeLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsWeLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71ED7792AFC24F900680632 /* DogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
 		A71ED77C2AFC3EC300680632 /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
 		A71ED77E2AFCDB3700680632 /* DogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogList.swift; sourceTree = "<group>"; };
@@ -73,13 +65,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A71ED7622AFC1CB300680632 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -97,7 +82,6 @@
 			children = (
 				A71ED74B2AFC1CB200680632 /* DogsWeLove.app */,
 				A71ED75B2AFC1CB300680632 /* DogsWeLoveTests.xctest */,
-				A71ED7652AFC1CB300680632 /* DogsWeLoveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,24 +191,6 @@
 			productReference = A71ED75B2AFC1CB300680632 /* DogsWeLoveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A71ED7642AFC1CB300680632 /* DogsWeLoveUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A71ED7752AFC1CB300680632 /* Build configuration list for PBXNativeTarget "DogsWeLoveUITests" */;
-			buildPhases = (
-				A71ED7612AFC1CB300680632 /* Sources */,
-				A71ED7622AFC1CB300680632 /* Frameworks */,
-				A71ED7632AFC1CB300680632 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A71ED7672AFC1CB300680632 /* PBXTargetDependency */,
-			);
-			name = DogsWeLoveUITests;
-			productName = DogWeLoveUITests;
-			productReference = A71ED7652AFC1CB300680632 /* DogsWeLoveUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,10 +205,6 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					A71ED75A2AFC1CB300680632 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = A71ED74A2AFC1CB200680632;
-					};
-					A71ED7642AFC1CB300680632 = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = A71ED74A2AFC1CB200680632;
 					};
@@ -263,7 +225,6 @@
 			targets = (
 				A71ED74A2AFC1CB200680632 /* DogsWeLove */,
 				A71ED75A2AFC1CB300680632 /* DogsWeLoveTests */,
-				A71ED7642AFC1CB300680632 /* DogsWeLoveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,13 +240,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A71ED7592AFC1CB300680632 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A71ED7632AFC1CB300680632 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,13 +274,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A71ED7612AFC1CB300680632 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -334,11 +281,6 @@
 			isa = PBXTargetDependency;
 			target = A71ED74A2AFC1CB200680632 /* DogsWeLove */;
 			targetProxy = A71ED75C2AFC1CB300680632 /* PBXContainerItemProxy */;
-		};
-		A71ED7672AFC1CB300680632 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A71ED74A2AFC1CB200680632 /* DogsWeLove */;
-			targetProxy = A71ED7662AFC1CB300680632 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,6 +415,7 @@
 				DEVELOPMENT_TEAM = N2TY84H7TW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dogs We Love";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -503,6 +446,7 @@
 				DEVELOPMENT_TEAM = N2TY84H7TW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dogs We Love";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -562,42 +506,6 @@
 			};
 			name = Release;
 		};
-		A71ED7762AFC1CB300680632 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N2TY84H7TW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonardoiquintero.DogWeLoveUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DogWeLove;
-			};
-			name = Debug;
-		};
-		A71ED7772AFC1CB300680632 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N2TY84H7TW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leonardoiquintero.DogWeLoveUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DogWeLove;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,15 +532,6 @@
 			buildConfigurations = (
 				A71ED7732AFC1CB300680632 /* Debug */,
 				A71ED7742AFC1CB300680632 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A71ED7752AFC1CB300680632 /* Build configuration list for PBXNativeTarget "DogsWeLoveUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A71ED7762AFC1CB300680632 /* Debug */,
-				A71ED7772AFC1CB300680632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
