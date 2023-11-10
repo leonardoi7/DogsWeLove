@@ -73,8 +73,8 @@
 		A71ED7422AFC1CB200680632 = {
 			isa = PBXGroup;
 			children = (
-				A78C66CB2AFE6D9F005E8DBB /* DogsWeLoveTests */,
 				A71ED74D2AFC1CB200680632 /* DogsWeLove */,
+				A78C66CB2AFE6D9F005E8DBB /* DogsWeLoveTests */,
 				A71ED74C2AFC1CB200680632 /* Products */,
 			);
 			sourceTree = "<group>";
