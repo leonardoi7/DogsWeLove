@@ -10,17 +10,18 @@ struct DogCell: View {
                 VStack (alignment: .leading) {
                     Text(dogData.dogName)
                         .font(.title2)
-                        .foregroundColor(.primary)
+                        .foregroundColor(color333333)
                         .padding(.bottom, 10)
                         .padding(.leading, 16)
                     Text(dogData.description)
                         .multilineTextAlignment(.leading)
                         .font(.subheadline)
-                        .foregroundColor(.secondary)
+                        .foregroundColor(color666666)
                         .padding(.bottom, 10)
                         .padding(.leading, 16)
                     Text("Almost \(dogData.age + 1) years old")
-                        .foregroundColor(.secondary)
+                        .foregroundColor(color333333)
+                        .bold()
                         .font(.subheadline)
                         .padding(.bottom)
                         .padding(.leading, 16)
@@ -28,7 +29,7 @@ struct DogCell: View {
                 .frame(minHeight: 150)
                 .padding()
             }
-            .background(Color(.systemBackground))
+            .background(colorF8F8F8)
             .clipShape(RoundedRectangle(cornerRadius: 14))
             
             HStack {
