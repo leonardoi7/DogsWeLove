@@ -1,7 +1,7 @@
 import XCTest
 @testable import DogsWeLove
 
-final class DogWeLoveTests: XCTestCase {
+final class DogsWeLoveTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
