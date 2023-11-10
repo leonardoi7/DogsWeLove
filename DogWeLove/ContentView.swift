@@ -6,15 +6,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Favorites")) {
-                    NavigationLink(destination: EmptyView()) {
-                        Text("Rex")
-                    }
-                    NavigationLink(destination: EmptyView()) {
-                        Text("Chief")
-                    }
-                    
-                }
                 Section(header: Text("Dogs")) {
                     NavigationLink(destination: DogList(dogData: dogData)) {
                         Text("View All Dogs")
