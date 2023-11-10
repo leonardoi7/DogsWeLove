@@ -1,5 +1,5 @@
 import XCTest
-@testable import DogWeLove
+@testable import DogsWeLove
 
 final class DogWeLoveTests: XCTestCase {
 

@@ -19,6 +19,7 @@ struct DogDetail: View {
                                 .resizable()
                                 .scaledToFit()
                                 .clipShape(RoundedRectangle(cornerRadius: 14))
+                                .frame(width: 150)
                         } else {
                             ProgressView()
                                 .frame(width: 150, height: 150)
